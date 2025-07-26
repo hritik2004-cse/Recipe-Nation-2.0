@@ -8,21 +8,15 @@
 
 ## 🚀 Live Demo
 
-<!--
-If the project is deployed, I'll add a link to the live version here.
--->
-
-🔗 **Check out the live version here!**
+🔗 **[Check out the live version here!](https://recipe-nation-2-0.vercel.app/)**
 
 ---
 
 ## 📸 Screenshot
 
-<!--
-A visual preview is worth a thousand words. I'll add a screenshot or a GIF of the project in action.
--->
 
-🖼️ *A screenshot of the main application interface.*
+
+![image](https://github.com/hritik2004-cse/Recipe-Nation-2.0/blob/main/src/assets/preview/previewsc.png)
 
 ## ✨ Features
 
@@ -82,7 +76,6 @@ cd Recipe-Nation-2.0
 ```bash 
 npm install
 ```
-4. **Start the development server:**
 
 - **Install specific libraries:** This project uses tailwindcss and react-icons. If they are not already included in the main dependencies, you can install them manually.
 
@@ -97,7 +90,7 @@ npx tailwindcss init
 ```bash
 npm install react-icons --save
 ```
-5. **▶️ Running the Application:**
+4. **▶️ Running the Application:**
 
 To start the development server, run the following command:
 
