@@ -1,0 +1,19 @@
+.menu{
+    width: 90%;
+    text-align: left;
+    left: -100%;
+    position: fixed;
+    list-style: none;
+    height: 100vh;
+    background-color: #e7fafe;
+    transition: .5s;
+}
+
+.menu ui li{
+    list-style:none;
+    padding: 10px 0px;
+}
+
+.activeMenu{
+    left: 0%;
+}
