@@ -12,18 +12,18 @@ export const HeroSec = () => {
       <div className='h-[640px] 2xl:w-[1280px] xl:w-[1024px] lg:w-[768px] md:w-[512px] w-[300px] flex flex-col lg:flex-row '>
         <div className='w-[620px] h-full bg-[#E7FAFE] p-[50px] rounded-s-2xl relative lg:order-1 order-2'>
           <div className='bg-white flex justify-center items-center gap-[5px] rounded-[20vh] py-[10px] h-[45px] w-[156px] shadow-md'>
-            <FaFire className='text-orange-500 text-[18px]'/>
+            <FaFire className='text-orange-500 text-[18px]' />
             <p className='text-[18px] font-semibold'>Hot Recipes</p>
           </div>
           <h1 className='text-[64px] text-left font-bold leading-[auto]'>Spicy delicious chicken wings</h1>
           <p className='text-[16px] text-black opacity-[60%]'>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
           <div className='flex gap-[20px] mt-[20px]'>
             <div className='bg-black/10 flex justify-center items-center gap-[8px] rounded-[20vh] py-[10px] h-[40px] w-[139px] shadow-md'>
-              <FaStopwatch className='text-black opacity-[100%] h-[24px] w-[24px]'/>
+              <FaStopwatch className='text-black opacity-[100%] h-[24px] w-[24px]' />
               <p className='text-[14px] text-black/60 font-semibold'>30 Minutes</p>
             </div>
             <div className='bg-black/10 flex justify-center items-center gap-[8px] rounded-[20vh] py-[10px] h-[40px] w-[139px] shadow-md'>
-              <PiForkKnifeFill className='text-black h-[24px] w-[24px]'/>
+              <PiForkKnifeFill className='text-black h-[24px] w-[24px]' />
               <p className='text-[14px] text-black/60 font-semibold'>Chicken</p>
             </div>
           </div>
@@ -37,16 +37,16 @@ export const HeroSec = () => {
             </div>
             <div className='bg-black text-white w-[200px] h-[60px] flex justify-center items-center rounded-lg gap-[10px] cursor-pointer shadow-lg'>
               <p className='text-[14px] font-bold'>View Recipe</p>
-              <FaPlayCircle className='h-[24px] w-[24px]'/>
+              <FaPlayCircle className='h-[24px] w-[24px]' />
             </div>
           </div>
         </div>
         <div className='xl:w-[660px] lg:w-[50%] sm:w-full h-full lg:order-2 order-1'>
           <img src={heroImg} alt="meat in a white plate" className='h-full w-full rounded-e-2xl object-cover object-center' />
         </div>
-          
+
       </div>
-    
+
     </div>
   )
 }
